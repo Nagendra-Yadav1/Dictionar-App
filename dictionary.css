@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+#interface{
+    border: 2px solid black;
+    font-size: x-large;
+    width: fit-content;
+    padding: 1em;
+    box-shadow: 2px 2px 10px 2px;
+    background-size: cover;
+    background-image: url(backgroundImg.jpg);
+
+
+
+}
+
+#main {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    display: block;
+}
+
+
+nav{
+    background-color: rgb(170, 170, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 5em;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    border: 2px solid black;
+    font-size: 20px;
+
+}
+
+#options{
+    margin: 10px;
+}
+
+#input{
+    margin: 5px;
+    padding: 0.5em;
+    border-radius: 20px;
+    font-size: 20px;
+
+}
+
+
+
+#searchBtn {
+    margin: 5px;
+    padding: 0.4em;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#searchBtn:hover {
+    background-color: #7CB9E8;
+
+}
+
+#linkButton {
+    width: 10em;
+    height: 3em;
+    font-size: large;
+    cursor: progress;
+}
+
+#linkButton a {
+    text-decoration: none;
+    color: black;
+}
+
+#linkButton:hover {
+    background-color: #7CB9E8;
+}
